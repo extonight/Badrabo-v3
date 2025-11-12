@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+   content="width=device-width, initial-scale=1.0">
+ <title>
+  Badra
+ </title>
+    <link rel="stylesheet" 
+        href="style/index.css"
+        >
+    <link rel="stylesheet" 
+        href="style/header.css"
+        >
+    <link rel="stylesheet" 
+        href="style/sidebar.css"
+        >
+    <link rel="stylesheet" 
+        href="style/footer.css"
+        >
+    <link rel="stylesheet" 
+        href="style/general.css"
+        >
+      <link rel="preconnect" 
+        href="https://fonts.googleapis.com"
+        >
+      <link rel="preconnect" 
+        href="https://fonts.gstatic.com" crossorigin
+        >
+      <link href="https://fonts.googleapis.com/
+        css2?family=Archivo+Black&family=Roboto:ital,wght@0,
+        100..900;1,100..900&display=swap" 
+        rel="stylesheet"
+        >
+</head>
+<body>
+ <a href="#main" class="skip-link">Hoppa till innehåll</a>
+    <header class="header">
+      <div class="left-section">
+      <label for="menu-checkbox" class="menu-label" aria-label="Meny">
+        <img class="menu" src="ICONS/hamburger-menu.svg" 
+      alt="Meny ikon" loading="lazy">
+      </label>
+      <h1>
+        <a href="index.html">
+       <img class="logo" src="img/Badrabooo.svg" 
+       alt="Badralogo" loading="lazy">
+       </a>
+      </h1>
+     </div>
+    
+     
+      <nav>
+      <div class="right-section">
+       <div class="sök-container">
+        <input id="search" class="sök" 
+        type="text" name="q" 
+        placeholder="Sök bostäder, områden, adresser…">
+        <button class="search-button" type="submit">
+        <img class="sökikon" src="ICONS/searchg.svg" alt="" loading="lazy">
+        </button>
+        </div>
+        <div class="logga-in-container">
+          <a class="logga-in" href="inlogg.html" 
+             target="_blank" rel="noopener noreferrer">
+            <img class="lock" src="ICONS/lock.svg" 
+            alt="Logga in ikon">
+            <span class="logga-in-text"> Logga in </span>
+          </a>
+        </div>
+       </div>
+      </nav>
+    </header>
+    <input type="checkbox" id="menu-checkbox" 
+      class="menu-checkbox" aria-hidden="true">
+    <aside>
+      <nav>
+        <div class="sidebar">
+          <ul class="sidebar-list">
+          <li><a class="sidebar-link" href="index.html">
+            <img class="sidebar-icon" 
+            src="ICONS/home.svg" alt="Hem ikon">
+            Hem
+          </a></li>
+          <li><a class="sidebar-link" href="utforska.html">
+            <img class="sidebar-icon" 
+            src="ICONS/searchg.svg" alt="Sök ikon">
+            Om oss
+          </a></li>
+          <li><a class="sidebar-link" href="inlogg.html">
+            <img class="sidebar-icon" 
+            src="ICONS/profileg.svg" alt="Mina sidor ikon">
+            Mina sidor
+          </a></li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+    <main id="main" class="main">
+      <h2 class="section-title">
+        Utforska bostäder
+      </h2>
+      <section class="bostads-grid">
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/bostad-1.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Lilla Nygatan 12, 123 45
+                </p>
+                <p class="plats"> 
+                  Hornstull, Stockholm
+                </p>
+                <p class="pris">
+                  5 900 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/1.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Bondegatan 45, 116 33
+                </p>
+                <p class="plats"> 
+                  Södermalm, Stockholm
+                </p>
+                <p class="pris">
+                  6 450 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/rödpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/2.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Östra Hamngatan 12, 411 09
+                </p>
+                <p class="plats"> 
+                  Hornstull, Stockholm
+                </p>
+                <p class="pris">
+                  4 875 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/3.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Regementsgatan 85, 217 53
+                </p>
+                <p class="plats"> 
+                  Slottsstaden, Malmö
+                </p>
+                <p class="pris">
+                  3 950 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/rödpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/10.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Norra Gubberogatan 28B, 416 63
+                </p>
+                <p class="plats"> 
+                  Olskroken, Göteborg
+                </p>
+                <p class="pris">
+                  2 895 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/5.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Valhallavägen 102, 114 27
+                </p>
+                <p class="plats"> 
+                  Östermalm, Stockholm
+                </p>
+                <p class="pris">
+                  9 200 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/6.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Hantverkargatan 18, 112 21
+                </p>
+                <p class="plats"> 
+                  Kungsholmen, Stockholm
+                </p>
+                <p class="pris">
+                  5 675 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/rödpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/7.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Amiralsgatan 5, 211 55
+                </p>
+                <p class="plats"> 
+                  Rörsjöstaden, Malmö
+                </p>
+                <p class="pris">
+                  2 750 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/8.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Nygatan 7, 803 11
+                </p>
+                <p class="plats"> 
+                  Gävle Centrum
+                </p>
+                <p class="pris">
+                  1 995 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/11.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Östra gatan 17, 116 45
+                </p>
+                <p class="plats"> 
+                  Slussen, Stockholm
+                </p>
+                <p class="pris">
+                  8 800 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/12.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Hejsangatan 4, 450 11
+                </p>
+                <p class="plats"> 
+                  Angered, Göteborg
+                </p>
+                <p class="pris">
+                  2 795 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/rödpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="annons-div">
+            <div class="bild-div"> 
+                <img class="bild" 
+                src="img/13.jpg" 
+                alt="Bostadsbild" loading="lazy">
+            </div>
+            <div class="info-grid">
+              <div class="annons-info">
+                <p class="adress">
+                  Vadervägen, 145 12
+                </p>
+                <p class="plats"> 
+                  Norsborg Stockholm
+                </p>
+                <p class="pris">
+                  2 250 000 kr
+                </p>
+              </div>
+              <div class="jämför"> 
+                <img class="pilar" 
+                src="ICONS/grönpil.svg"> 
+                <div class="tooltip">
+                  Jämför pris
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+      <section class="Badrabo-logo">
+        <img src="img/Badrabooo.svg" alt="Badrabo logo">
+        <p>Badrabo - jämför och välj den perfekta bostaden</p>
+      </section>
+      <nav class="footer-länkar">
+        <ul>
+          <li>
+           <a class="footer-länk" href="index.html">
+            Hem
+           </a>
+          </li>
+          <li><a class="footer-länk" href="utforska.html">
+            Om oss
+          </a></li>
+          <li><a class="footer-länk" href="inlogg.html">
+            Mina sidor
+          </a></li>
+        </ul>
+      </nav>
+      <section class="kontakt">
+        <h3 class="footer-kontakt">Kontakt</h3>
+        <p>E-post: <a href="mailto:support@badrabo.se" 
+          class="footer-kontakt-link">support@badrabo.se</a>
+        </p>
+        <p>Hellogatan 12, 111 11 Stockholm</p>
+      </section>
+      </div>
+      <section class="botten-footer">
+        <p>&#169; 2025 Badrabo. All rights reserved</p> 
+      </section>
+     </footer>
+    </body>
+</html>

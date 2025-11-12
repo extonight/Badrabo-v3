@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+   content="width=device-width, initial-scale=1.0">
+ <title>
+  Badra
+ </title>
+    <link rel="stylesheet" 
+        href="style/inlogg.css"
+        >
+    <link rel="stylesheet" 
+        href="style/header.css"
+        >
+    <link rel="stylesheet" 
+        href="style/sidebar.css"
+        >
+    <link rel="stylesheet" 
+        href="style/footer.css"
+        >
+    <link rel="stylesheet" 
+        href="style/general.css"
+        >
+    <link rel="stylesheet" 
+        href="style/index.css"
+        >
+    <link rel="preconnect" 
+        href="https://fonts.googleapis.com"
+        >
+    <link rel="preconnect" 
+        href="https://fonts.gstatic.com" crossorigin
+        >
+    <link href="https://fonts.googleapis.com/
+        css2?family=Archivo+Black&family=Roboto:ital,wght@0,
+        100..900;1,100..900&display=swap" 
+        rel="stylesheet"
+        >
+ </head>
+ <body>
+    <a href="#main" class="skip-link">Hoppa till innehåll</a>
+  <header class="header">
+      <div class="left-section">
+      <label for="menu-checkbox" class="menu-label" aria-label="Meny">
+        <img class="menu" src="ICONS/hamburger-menu.svg" 
+      alt="Meny ikon">
+      </label>
+      <h1>
+       <a href="index.html">
+        <img class="logo" src="img/Badrabooo.svg" 
+        alt="Badralogo">
+       </a>
+      </h1>
+     </div>
+   <nav>
+      <div class="right-section">
+       <div class="sök-container">
+        <input id="search" class="sök" 
+        type="text" name="q" 
+        placeholder="Sök bostäder, områden, adresser…">
+        <button class="search-button" type="submit">
+        <img class="sökikon" src="ICONS/searchg.svg" alt="">
+        </button>
+        </div>
+       </div>
+      </nav>
+  </header>
+
+    <input type="checkbox" id="menu-checkbox" 
+      class="menu-checkbox" aria-hidden="true">
+  <aside>
+      <nav>
+        <div class="sidebar">
+          <ul class="sidebar-list">
+          <li><a class="sidebar-link" href="index.html">
+            <img class="sidebar-icon" 
+            src="ICONS/home.svg" alt="Hem ikon">
+            Hem
+          </a></li>
+          <li><a class="sidebar-link" href="utforska.html">
+            <img class="sidebar-icon" 
+            src="ICONS/searchg.svg" alt="Sök ikon">
+            Om oss
+          </a></li>
+          <li><a class="sidebar-link" href="inlogg.html">
+            <img class="sidebar-icon" 
+            src="ICONS/profileg.svg" alt="Mina sidor ikon">
+            Mina sidor
+          </a></li>
+          </ul>
+        </div>
+      </nav>
+  </aside>
+
+  <main id="main" class="main">
+      <section class="inlogg-container">
+        <h1>
+       <img class="logo" src="img/Badrabooo.svg" 
+       alt="Badralogo">
+      </h1>
+      <div class="logga-in-text">
+        <p class="logga-in-titel">Logga in</p>
+        Logga in genom att välja något av alternativen nedan.
+      </div>
+      <div class="apple-inlogg">
+        <img class="logga-in-val" src="ICONS/apple.svg" alt="Apple logo">
+        Fortsätt med Apple
+      </div>
+      <div class="logga-in-google">
+        <img style="padding: 5;" class="logga-in-val" 
+        src="ICONS/google.svg" alt="Google logo">
+        Fortsätt med Google
+      </div>
+
+      <div class="eller-rad">
+        <hr>
+        <span>eller</span>
+        <hr>
+      </div>
+
+      <div class="epost-återställ-container">
+        <p class="epost">
+            E-post
+        </p>
+        <p class="återställ">
+            Återställ konto
+        </p>
+      </div>
+      <input class="epost-ruta" type="text" placeholder="Ange E-post ">
+
+      <div class="epost-inlogg">
+        Fortsätt
+      </div>
+      <p>Har du inget konto? <span class="skapa-konto">Skapa konto</span></p>
+      </section>
+       
+  </main>
+
+  <footer>
+        <div class="footer">
+      <section class="Badrabo-logo">
+        <img src="img/Badrabooo.svg" alt="Badrabo logo">
+        <p>Badrabo - jämför och välj den perfekta bostaden</p>
+      </section>
+      <nav class="footer-länkar">
+        <ul>
+          <li>
+           <a class="footer-länk" href="index.html">
+            Hem
+           </a>
+          </li>
+          <li><a class="footer-länk" href="utforska.html">
+            Om oss
+          </a></li>
+          <li><a class="footer-länk" href="inlogg.html">
+            Mina sidor
+          </a></li>
+        </ul>
+      </nav>
+      <section class="kontakt">
+        <h3 class="footer-kontakt">Kontakt</h3>
+        <p>E-post: <a href="mailto:support@badrabo.se" 
+            class="footer-kontakt-link">support@badrabo.se</a>
+        </p>
+        <p>Hellogatan 12, 111 11 Stockholm</p>
+      </section>
+      </div>
+      <section class="botten-footer">
+        <p>&#169; 2025 Badrabo. All rights reserved</p> 
+      </section>
+  </footer>
+ </body>
+</html>
