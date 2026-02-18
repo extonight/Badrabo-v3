@@ -28,7 +28,6 @@
     background-color: rgb(235, 233, 233);   
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.1);    
-    cursor: pointer;
 }
 .bild-div{
     position: relative;
@@ -52,13 +51,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
+
 
 }
 .annons-info{
     padding-left: 10px;
     padding-top: 7px;
-    cursor: pointer;
 
 }
 .adress{
@@ -107,6 +105,11 @@
 }
 .jämför:hover .tooltip{
     opacity: 1;
+}
+.compare-btn {
+  border: none;
+  background: transparent;
+  padding: 0;
 }
 
 
