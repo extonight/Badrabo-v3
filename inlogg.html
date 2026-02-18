@@ -36,6 +36,9 @@
         100..900;1,100..900&display=swap" 
         rel="stylesheet"
         >
+    <script src="js/main.js" defer
+        >
+        </script>
  </head>
  <body>
     <a href="#main" class="skip-link">Hoppa till innehåll</a>
@@ -58,7 +61,7 @@
         <input id="search" class="sök" 
         type="text" name="q" 
         placeholder="Sök bostäder, områden, adresser…">
-        <button class="search-button" type="submit">
+        <button class="search-button" type="button">
         <img class="sökikon" src="ICONS/searchg.svg" alt="">
         </button>
         </div>
@@ -94,6 +97,7 @@
 
   <main id="main" class="main">
       <section class="inlogg-container">
+        <p id="uiMessage" class="ui-message" role="status" aria-live="polite"></p>
         <h1>
        <img class="logo" src="img/Badrabooo.svg" 
        alt="Badralogo">
@@ -119,23 +123,31 @@
       </div>
 
       <div class="epost-återställ-container">
-        <p class="epost">
-            E-post
-        </p>
         <p class="återställ">
             Återställ konto
         </p>
       </div>
-      <input class="epost-ruta" type="text" placeholder="Ange E-post ">
-
-      <div class="epost-inlogg">
-        Fortsätt
-      </div>
-      <p>Har du inget konto? <span class="skapa-konto">Skapa konto</span></p>
+      <form id="loginForm" class="login-form" novalidate>
+       <label class="epost" for="emailInput">
+        E-post
+        </label>
+        <input id="emailInput" class="epost-ruta" name="email"
+             type="email" placeholder="Ange e-post" autocomplete="email" 
+             required>
+          <small 
+            class="field-error" data-error-for="email">
+           </small>
+            <button class="epost-inlogg" type="submit">
+              Fortsätt
+             </button>
+      </form>
+      <p>Har du inget konto? 
+        <span class="skapa-konto">
+          Skapa konto
+        </span>
+      </p>
       </section>
-       
   </main>
-
   <footer>
         <div class="footer">
       <section class="Badrabo-logo">
